@@ -9,10 +9,10 @@ angular.module("registration_form",[])
                 headers: { "Content-Type" : "application/x-www-form-urlencoded" }
             }).then(
                 function(data) {
-                    window.alert("Успешно зарегистрирован");
+                    window.alert("Успешно зарегистрирован!");
                 },
                 function(error) {
-                    window.alert("При регистрации произошла ошибка");
+                    window.alert("При регистрации произошла ошибка!");
                 }
             );
         }
