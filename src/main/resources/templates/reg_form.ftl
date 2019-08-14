@@ -19,7 +19,7 @@
     </header>
 
     <nav>
-        <div>
+        <div style="margin-left: 40%">
             <ul>
                 <li><a href="http://localhost:8090/api">Login form</a></li>
                 <li><a href="http://localhost:8090/form">Registration form</a></li>
@@ -171,7 +171,7 @@
                                             <table class="table table-layout">
                                                 <tr>
                                                     <td width="25%"><label for="exampleInputLogin">Email</label></td>
-                                                    <td width="75%"><input type="text"
+                                                    <td width="75%"><input type="email"
                                                                class="form-control"
                                                                id="exampleInputEmail"
                                                                placeholder="Email"
